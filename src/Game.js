@@ -49,7 +49,7 @@ BasicGame.Game.prototype = {
 
 
             console.log("Shit");
-            send("VKWebAppShowWallPostBox", {"message": "Я eблaн "+this.score+" раз","attachments":"https://vk.com/app7266134"});
+            send("VKWebAppShowWallPostBox", {"message": "Я eблaн "+this.score+" раз","attachments":"https://vk.com/app7266208"});
 
         }
 
