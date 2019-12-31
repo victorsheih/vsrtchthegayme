@@ -128,7 +128,10 @@
                 iosBridge[handler].postMessage(params);
             }
 
+
+
             if (isDesktop) {
+                console.log("____");
                 parent.postMessage({
                     handler: handler,
                     params: params,
