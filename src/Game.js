@@ -3,6 +3,10 @@ BasicGame.Game = function (game) {
 
 };
 
+
+
+
+
 BasicGame.Game.prototype = {
 
 
@@ -45,7 +49,7 @@ BasicGame.Game.prototype = {
 
 
             console.log("Shit");
-            send("VKWebAppShowWallPostBox", {"message": "Я еблан "+this.score+" раз","attachments":"http://meatspin.fr/"});
+            send("VKWebAppShowWallPostBox", {"message": "Я еблан "+this.score+" раз","attachments":"https://vk.com/app7266134/"});
 
         }
 
